@@ -1,0 +1,74 @@
+/* App.css */
+
+/* General App Styles */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:70vw;
+  height: 100vh;
+  background-color: #f9f9f9;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+h1{
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #333;
+}
+
+/* Input Field */
+.input-field {
+  width: 300px;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: border 0.3s;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Output Container */
+.output-container {
+  margin-top: 30px;
+  max-width: 90%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+/* Typewriter Text Styling */
+.typewriter-text {
+  font-size: 24px;
+  color: #333;
+  border-right: 3px solid #333;
+  padding-right: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(40) 1s forwards, blink 0.75s step-end infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Blinking cursor effect */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jQuery DOM Update</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    #output {
+      margin-top: 20px;
+      padding: 10px;
+      border: 2px solid #007bff;
+      border-radius: 5px;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Update DOM using jQuery</h1>
+  <button id="changeTextBtn">Change Text</button>
+  <button id="addTextBtn">Add More Text</button>
+
+  <div id="output">Original content here.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
